@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Приют для животных «Добрый дом»</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">🐾 Добрый дом</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Главная</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Наши истории</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pets">Питомцы</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section id="hero">
+  <div class="container text-center">
+    <div class="row align-items-center">
+      <div class="col-lg-6 text-lg-start">
+        <h1>Приют для животных «Добрый дом»</h1>
+        <p class="lead">
+          Мы помогаем бездомным кошкам и собакам находить любящих хозяев.
+          Каждый питомец заслуживает тёплый дом и заботу — подарите её вместе с нами.
+        </p>
+        <a href="#pets" class="btn btn-warning btn-lg">Найти друга</a>
+      </div>
+      <div class="col-lg-6 mt-4 mt-lg-0">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWrY-SlxpH5BoaZvYZRCzxPSUbI25yvTxGvYpLx-qmcBmuopUU0Ebv5zk4&s=10" class="img-fluid rounded shadow" alt="Приют для животных">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="container">
+    <h2 class="text-center mb-4">Наши истории</h2>
+    <div id="petCarousel" class="carousel slide shadow rounded overflow-hidden" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#petCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#petCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#petCarousel" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://picsum.photos/seed/dog1/1200/500" class="d-block w-100" alt="Собака 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/seed/cat1/1200/500" class="d-block w-100" alt="Кошка 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/seed/dog2/1200/500" class="d-block w-100" alt="Собака 2">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#petCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#petCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section id="pets">
+  <div class="container">
+    <h2 class="text-center mb-4">Наши питомцы</h2>
+
+    <h4 class="mb-3">Собаки</h4>
+    <div class="row g-4 mb-5">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://junglevet.ru/files/articles_item/93/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA%2520%25D1%258D%25D0%25BA%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B0%25202025-05-07%2520%25D0%25B2%252016.10.36.1746623445.png.preview.avif" class="card-img-top" alt="Рекс">
+          <div class="card-body">
+            <h5 class="card-title">Рекс</h5>
+            <p class="card-text">Дружелюбный и энергичный, обожает долгие прогулки и игры с детьми.</p>
+            <a href="#" class="btn btn-outline-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7XZMEVj0x9g4Vux5ziS5D70vSVBWRJjmhPaU49Sf-pnAt1WfY_b3Zu0o&s=10" class="card-img-top" alt="Белка">
+          <div class="card-body">
+            <h5 class="card-title">Белка</h5>
+            <p class="card-text">Спокойная и ласковая, отлично ладит с другими животными.</p>
+            <a href="#" class="btn btn-outline-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvZwYiru9VSlSdML3cN0bWyY2bxaKQNusweAmlQ7j9sa6jXF_nQgaR2Dk&s=10" class="card-img-top" alt="Барон">
+          <div class="card-body">
+            <h5 class="card-title">Барон</h5>
+            <p class="card-text">Верный охранник, быстро привыкает к новому хозяину.</p>
+            <a href="#" class="btn btn-outline-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="mb-3">Кошки</h4>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAwDxHmcZyPSiaYwvWAwTIWSStRY8CiMBh0GBKZLeFkKwl5BpVBNEtbk&s=10" class="card-img-top" alt="Мурка">
+          <div class="card-body">
+            <h5 class="card-title">Мурка</h5>
+            <p class="card-text">Ласковая и игривая кошка, любит сидеть на коленях.</p>
+            <a href="#" class="btn btn-outline-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbXQiF9I9he1u0rzJNzlJBK_JJzL9G8rme8zrtB2huiD1JnnCujG7LLHo6&s=10" class="card-img-top" alt="Снежок">
+          <div class="card-body">
+            <h5 class="card-title">Снежок</h5>
+            <p class="card-text">Спокойный и независимый, подойдёт занятым хозяевам.</p>
+            <a href="#" class="btn btn-outline-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsJWMnI59v5LIl52zL0pSQpqBGEyeIxnTEiXQq5sC-NSqi8-O9oa_GF0sZ&s=10" class="card-img-top" alt="Тигра">
+          <div class="card-body">
+            <h5 class="card-title">Чокола</h5>
+            <p class="card-text">Любопытная и активная кошка, обожает игрушки.</p>
+            <a href="#" class="btn btn-outline-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Забрать питомца или помочь приюту</h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Ваше имя</label>
+            <input type="text" class="form-control" placeholder="Иван Иванов">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Сообщение</label>
+            <textarea class="form-control" rows="4" placeholder="Расскажите, чем хотите помочь или какого питомца хотите забрать"></textarea>
+          </div>
+          <button type="submit" class="btn btn-warning w-100">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <h5>Приют «Добрый дом»</h5>
+        <p>г. Самара, ул. Заречная, д. 12</p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5>Часы работы</h5>
+        <p>Пн–Вс: 09:00 – 19:00</p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5>Контакты</h5>
+        <p>Тел: +7 (900) 123-45-67<br>Email: help@dobryhome.ru</p>
+      </div>
+    </div>
+    <p class="text-center mb-0 py-3 border-top border-secondary">&copy; 2023 Приют для животных «Добрый дом»</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
