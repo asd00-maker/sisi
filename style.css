@@ -1,0 +1,21 @@
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#hero {
+  background-color: #fff8ec;
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+footer h5 {
+  color: #ffc107;
+}
